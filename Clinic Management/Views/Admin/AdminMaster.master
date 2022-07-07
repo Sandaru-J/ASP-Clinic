@@ -1,11 +1,11 @@
 ﻿<%@ Master Language="C#" %>
 
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <meta charset="utf-8" />    
     <title></title>
-    <link rel="stylesheet" href="C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Management\Libs\Boostrap\css\bootstrap-reboot.min.css"
+    <link rel="stylesheet" href=""
     <asp:ContentPlaceHolder id="head" runat="server" />
 </head>
 <body>

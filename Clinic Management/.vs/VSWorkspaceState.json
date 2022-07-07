@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Models"
+    "\\Libs",
+    "\\Libs\\Boostrap",
+    "\\Libs\\Boostrap\\css",
+    "\\Views",
+    "\\Views\\Admin"
   ],
-  "SelectedNode": "\\Models\\test Model.txt",
+  "SelectedNode": "\\Global.asax.cs",
   "PreviewInSolutionExplorer": false
 }
