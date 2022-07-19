@@ -1,12 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Libs",
-    "\\Libs\\Boostrap",
-    "\\Libs\\Boostrap\\css",
+    "\\Libs\\Bootstrap",
+    "\\Models",
     "\\Views",
     "\\Views\\Admin"
   ],
-  "SelectedNode": "\\Global.asax.cs",
+  "SelectedNode": "\\Views\\Admin\\AdminMaster.master",
   "PreviewInSolutionExplorer": false
 }
