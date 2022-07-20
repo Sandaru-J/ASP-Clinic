@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\pexels-anna-shvets-4586984.jpg" />
+    <Content Include="Assets\Images\pexels-charles-roth-2797318.jpg" />
+    <Content Include="Assets\Images\LoginBg.jpg" />
+    <Content Include="Assets\Images\pexels-rodnae-productions-6129149.jpg" />
     <Content Include="Global.asax" />
     <Content Include="Libs\Bootstrap\css\bootstrap-grid.css" />
     <Content Include="Libs\Bootstrap\css\bootstrap-grid.css.map" />
@@ -85,6 +89,7 @@
     <Content Include="Libs\Bootstrap\js\bootstrap.js" />
     <Content Include="Libs\Bootstrap\js\bootstrap.min.js" />
     <Content Include="Views\Admin\Doctors.aspx" />
+    <Content Include="Views\Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -106,6 +111,13 @@
     <Compile Include="Views\Admin\Doctors.aspx.designer.cs">
       <DependentUpon>Doctors.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Views\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Libs\Bootstrap\js\bootstrap.bundle.js.map" />
@@ -123,7 +135,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\" />
     <Folder Include="Js\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Doctors\" />
