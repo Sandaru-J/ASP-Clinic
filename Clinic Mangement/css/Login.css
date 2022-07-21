@@ -1,0 +1,15 @@
+﻿body {
+
+}
+.form-label{
+    
+}
+.pl-2 {
+    color:inherit;
+    padding:4px 7px 2px 4px;
+}
+.col-md-5 {
+    border: hidden;
+    background-color: #ffffffa3;
+    border-radius:revert;
+}

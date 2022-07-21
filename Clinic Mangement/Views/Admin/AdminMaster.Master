@@ -19,16 +19,16 @@
             <div class="collapse navbar-collapse" id="navbarSupporttrdContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Doctors</a>
+                        <a class="nav-link" href="Doctors.aspx">Doctors</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Laboratorian</a>
+                        <a class="nav-link" href="Laboratorian.aspx">Laboratorian</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Receptionist</a>
+                        <a class="nav-link" href="Receptionist.aspx">Receptionist</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Logout</a>
+                        <a class="nav-link" href="../Login.aspx">Logout</a>
                     </li>
                 </ul>
                 

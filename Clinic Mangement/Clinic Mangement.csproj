@@ -67,10 +67,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\pexels-anna-shvets-3786246.jpg" />
     <Content Include="Assets\Images\pexels-anna-shvets-4586984.jpg" />
-    <Content Include="Assets\Images\pexels-charles-roth-2797318.jpg" />
     <Content Include="Assets\Images\LoginBg.jpg" />
+    <Content Include="Assets\Images\pexels-artem-podrez-5726808.jpg" />
+    <Content Include="Assets\Images\pexels-cedric-fauntleroy-4269274.jpg" />
+    <Content Include="Assets\Images\pexels-pavel-danilyuk-8442096.jpg" />
     <Content Include="Assets\Images\pexels-rodnae-productions-6129149.jpg" />
+    <Content Include="css\Login.css" />
     <Content Include="Global.asax" />
     <Content Include="Libs\Bootstrap\css\bootstrap-grid.css" />
     <Content Include="Libs\Bootstrap\css\bootstrap-grid.css.map" />
@@ -89,6 +93,8 @@
     <Content Include="Libs\Bootstrap\js\bootstrap.js" />
     <Content Include="Libs\Bootstrap\js\bootstrap.min.js" />
     <Content Include="Views\Admin\Doctors.aspx" />
+    <Content Include="Views\Admin\Laboratorian.aspx" />
+    <Content Include="Views\Admin\Receptionist.aspx" />
     <Content Include="Views\Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -110,6 +116,20 @@
     </Compile>
     <Compile Include="Views\Admin\Doctors.aspx.designer.cs">
       <DependentUpon>Doctors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Laboratorian.aspx.cs">
+      <DependentUpon>Laboratorian.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Laboratorian.aspx.designer.cs">
+      <DependentUpon>Laboratorian.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Receptionist.aspx.cs">
+      <DependentUpon>Receptionist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Receptionist.aspx.designer.cs">
+      <DependentUpon>Receptionist.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -135,7 +155,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Js\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Doctors\" />
     <Folder Include="Views\Guest\" />
