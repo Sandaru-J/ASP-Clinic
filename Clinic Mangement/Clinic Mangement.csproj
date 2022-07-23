@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\grateful-patient.jpg" />
     <Content Include="Assets\Images\pexels-anna-shvets-3786246.jpg" />
     <Content Include="Assets\Images\pexels-anna-shvets-4586984.jpg" />
     <Content Include="Assets\Images\LoginBg.jpg" />
@@ -74,6 +75,7 @@
     <Content Include="Assets\Images\pexels-cedric-fauntleroy-4269274.jpg" />
     <Content Include="Assets\Images\pexels-pavel-danilyuk-8442096.jpg" />
     <Content Include="Assets\Images\pexels-rodnae-productions-6129149.jpg" />
+    <Content Include="Assets\Images\pexels-vidal-balielo-jr-1250655.jpg" />
     <Content Include="css\Login.css" />
     <Content Include="Global.asax" />
     <Content Include="Libs\Bootstrap\css\bootstrap-grid.css" />
