@@ -57,3 +57,6 @@ C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\obj\Debug\C
 C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\obj\Debug\Clinic Mangement.csproj.CopyComplete
 C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\obj\Debug\Clinic Mangement.dll
 C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\obj\Debug\Clinic Mangement.pdb
+C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Admin\Receptionist.aspx
+C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Admin\Receptionist.aspx.cs
+C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Admin\Receptionist.aspx.designer.cs

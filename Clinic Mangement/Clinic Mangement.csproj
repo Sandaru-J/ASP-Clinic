@@ -96,7 +96,9 @@
     <Content Include="Libs\Bootstrap\js\bootstrap.min.js" />
     <Content Include="Views\Admin\Doctors.aspx" />
     <Content Include="Views\Admin\Laboratorian.aspx" />
-    <Content Include="Views\Admin\Receptionist.aspx" />
+    <Content Include="Views\Admin\Receptionist.aspx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Views\Guest\Home.aspx" />
     <Content Include="Views\Login.aspx" />
     <Content Include="Web.config" />
@@ -130,9 +132,11 @@
     <Compile Include="Views\Admin\Receptionist.aspx.cs">
       <DependentUpon>Receptionist.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Views\Admin\Receptionist.aspx.designer.cs">
       <DependentUpon>Receptionist.aspx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Views\Guest\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
