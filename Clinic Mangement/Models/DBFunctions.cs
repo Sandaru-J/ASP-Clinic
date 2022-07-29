@@ -16,7 +16,11 @@ namespace Clinic_Mangement.Models
         private SqlDataAdapter sda;
         public DBFunctions()
         {
-            ConStr = "";
+            ConStr = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MedicalAsp;Integrated Security=True";
+            con = new SqlConnection(ConStr);
+            cmd = new SqlCommand();
+            cmd.Connection = con;
+
         }
 
         public int setData(string sql)
