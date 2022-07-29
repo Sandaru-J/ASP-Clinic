@@ -15,6 +15,9 @@ namespace Clinic_Mangement.Models
         private string ConStr;
         private SqlDataAdapter sda;
         public DBFunctions()
+        {
+            ConStr = "";
+        }
 
         public int setData(string sql)
         {

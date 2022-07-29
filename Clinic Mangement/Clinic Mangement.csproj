@@ -94,12 +94,18 @@
     <Content Include="Libs\Bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="Libs\Bootstrap\js\bootstrap.js" />
     <Content Include="Libs\Bootstrap\js\bootstrap.min.js" />
-    <Content Include="Views\Admin\Doctors.aspx" />
-    <Content Include="Views\Admin\Laboratorian.aspx" />
+    <Content Include="Views\Admin\Doctors.aspx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Views\Admin\Laboratorian.aspx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Views\Admin\Receptionist.aspx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="Views\Guest\Home.aspx" />
+    <Content Include="Views\Guest\Home.aspx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Views\Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -107,6 +113,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\DBFunctions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\Admin\AdminMaster.Master.cs">
       <DependentUpon>AdminMaster.Master</DependentUpon>
@@ -118,16 +125,20 @@
     <Compile Include="Views\Admin\Doctors.aspx.cs">
       <DependentUpon>Doctors.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Views\Admin\Doctors.aspx.designer.cs">
       <DependentUpon>Doctors.aspx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Views\Admin\Laboratorian.aspx.cs">
       <DependentUpon>Laboratorian.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Views\Admin\Laboratorian.aspx.designer.cs">
       <DependentUpon>Laboratorian.aspx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Views\Admin\Receptionist.aspx.cs">
       <DependentUpon>Receptionist.aspx</DependentUpon>
@@ -141,9 +152,11 @@
     <Compile Include="Views\Guest\Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Views\Guest\Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="Views\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -169,7 +182,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Doctors\" />
     <Folder Include="Views\Laboratorian\" />
     <Folder Include="Views\Receptionist\" />

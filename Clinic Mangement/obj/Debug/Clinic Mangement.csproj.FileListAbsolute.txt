@@ -60,3 +60,12 @@ C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\obj\Debug\C
 C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Admin\Receptionist.aspx
 C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Admin\Receptionist.aspx.cs
 C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Admin\Receptionist.aspx.designer.cs
+C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Admin\Doctors.aspx
+C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Admin\Laboratorian.aspx
+C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Guest\Home.aspx
+C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Admin\Doctors.aspx.cs
+C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Admin\Doctors.aspx.designer.cs
+C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Admin\Laboratorian.aspx.cs
+C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Admin\Laboratorian.aspx.designer.cs
+C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Guest\Home.aspx.cs
+C:\Users\Sandaru\Desktop\I miei progetti\ASP-Clinic\Clinic Mangement\bin\Views\Guest\Home.aspx.designer.cs
