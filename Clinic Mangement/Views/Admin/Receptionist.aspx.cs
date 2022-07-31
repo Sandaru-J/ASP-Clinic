@@ -20,6 +20,12 @@ namespace Clinic_Mangement.Views.Admin
         {
 
         }
+        public void showReceptionist()
+        {
+            String Query = "Selcect * from MedicalAsp.dbo.ReceptionTbl";
+            RecPGv.DataSource = con.getData(Query);
+            RecPGv.DataBind();
+        }
         protected void AddBtn_Click(object sender, EventArgs e)
         {
             try
@@ -34,8 +40,11 @@ namespace Clinic_Mangement.Views.Admin
                 con.setData(Query);
 
                 //SqlCommand comm = new SqlCommand("insert into MedicalAsp.dbo.ReceptionTbl (RecName,RecEmail,RecAdd,RecPhone,RecPassword) values (@RecName,@RecEmail,@RecAdd,@RecPhone,@RecPassword,@con)", con);
-                //lblErrMsg.InnerText = "Receptionist Added!!!";
-
+                lblErrMsg.InnerText = "Receptionist Added!!!";
+                txtRecName.Value = "";
+                txtRecEmail.Value = "";
+                txtRecAdrs.Value = "";
+                txtRecPhone.Value = "";
             }
             catch(Exception Ex)
             {

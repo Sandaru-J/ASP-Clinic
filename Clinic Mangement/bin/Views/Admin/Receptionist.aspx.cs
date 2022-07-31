@@ -24,18 +24,21 @@ namespace Clinic_Mangement.Views.Admin
         {
             try
             {
-                string RecName = txtRecName.Value;
+                /*string RecName = txtRecName.Value;
                 string RecEmail=txtRecEmail.Value;
                 string RecAdd = txtRecAdrs.Value;
                 string RecPhone = txtRecPhone.Value;
                 string RecPassword = txtRecPass.Value;
                 string Query = "insert into MedicalAsp.dbo.ReceptionTbl values('{0}','{1}','{2}','{3}','{4}')";
                 Query=String.Format(Query,RecName,RecEmail,RecAdd,RecPhone,RecPassword);
-                con.setData(Query);
+                con.setData(Query);*/
 
                 //SqlCommand comm = new SqlCommand("insert into MedicalAsp.dbo.ReceptionTbl (RecName,RecEmail,RecAdd,RecPhone,RecPassword) values (@RecName,@RecEmail,@RecAdd,@RecPhone,@RecPassword,@con)", con);
-                //lblErrMsg.InnerText = "Receptionist Added!!!";
-
+                lblErrMsg.InnerText = "Receptionist Added!!!";
+                txtRecName.Value = "";
+                txtRecEmail.Value = "";
+                txtRecAdrs.Value = "";
+                txtRecPhone.Value = "";
             }
             catch(Exception Ex)
             {

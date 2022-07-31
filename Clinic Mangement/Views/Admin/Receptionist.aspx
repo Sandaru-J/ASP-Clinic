@@ -45,7 +45,7 @@
                 <div class="row">
                      <div class="col">
                         <h1>Receptionist Details</h1>
-                         <asp:GridView ID="DocGv" class="table table-hover" runat="server"></asp:GridView>
+                         <asp:GridView ID="RecPGv" class="table table-hover" runat="server"></asp:GridView>
                     </div>
                 </div>
             </div>
