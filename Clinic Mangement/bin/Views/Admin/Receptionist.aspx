@@ -10,27 +10,28 @@
                     <div class="col-md-8">
                         <div class="mb-3">
                             <label for="RecName" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="txtRecName"/>
+                            <input type="text" class="form-control" id="txtRecName" runat="server" required="required"/>
                         </div>
                         <div class="mb-3">
                             <label for="RecEmailTab" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="txtRecEmail"/>
+                            <input type="email" class="form-control" id="txtRecEmail" runat="server" required="required"/>
                         </div>
                         <div class="mb-3">
                             <label for="RecPassTab" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="txtRecPass"/>
+                            <input type="password" class="form-control" id="txtRecPass" runat="server" required="required"/>
                          </div>
                         <div class="mb-3">
                             <label for="RecPhoneTab" class="form-label">Phone</label>
-                            <input type="text" class="form-control" id="txtRecPhone"/>
+                            <input type="text" class="form-control" id="txtRecPhone" runat="server" required="required"/>
                         </div>
                         <div class="mb-3">
                             <label for="REcAdrsTab" class="form-label">Address</label>
-                            <input type="text" class="form-control" id="txtRecAdrs"/>
+                            <input type="text" class="form-control" id="txtRecAdrs" runat="server" required="required"/>
                         </div>
-                        <button type="submit" class="btn btn-warning">Save</button>
-                        <button type="submit" class="btn btn-primary">Edit</button>
-                        <button type="submit" class="btn btn-primary">Delete</button>
+                        <label runat="server" id="lblErrMsg" class="text-danger"></label>
+                        <asp:Button ID="EditBtn" runat="server" Text="Edit" CssClass="btn btn-warning" />
+                        <asp:Button ID="AddBtn" runat="server" Text="Save" CssClass="btn btn-primary" OnClick="AddBtn_Click" />
+                        <asp:Button ID="DltBtn" runat="server" Text="Delete" CssClass="btn btn-danger" />
                     </div>
   
                 </form>
